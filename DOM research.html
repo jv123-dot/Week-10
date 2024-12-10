@@ -1,0 +1,34 @@
+List and explain the JavaScript methods that enable us to select elements from the DOM.
+
+document.getElementById('') selects the passed in identifier in your HTML by the ID you assign to a particular single element. For example <p id="test">123</p> You would pass in "test"
+so that you can target the stuff inside of the paragraph. 
+
+document.getElementByClassName('') targets a collection of elements that you have assigned with the named class.  
+For example passing in "test1" will select all list items below
+<div>
+    <li class="test1"></li>
+    <li class="test1"></li>
+    <li class="test1"></li>
+</div>
+
+document.getElementByTagName('') targets all the elements in your HTML doc by their tag. Examples: <p></p>, <li></li>, <div></div>, <h1></h1>
+
+https://www.geeksforgeeks.org/how-to-select-dom-elements-in-javascript/
+
+
+
+
+What are the differences between the innerHTML and textContent properties in the DOM?
+
+textContext will only get the content of the html, whereas innerHTML gets the content and the HTML code. 
+
+https://www.geeksforgeeks.org/difference-between-textcontent-and-innerhtml/
+
+
+
+
+Event Listeners: These are methods to handle "events"/ trigger some code you want to run when some action is taken by the user. For example clicking on a button to create a text
+pop up window. Or mousing over the button to change its color
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+
